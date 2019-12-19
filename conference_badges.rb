@@ -6,7 +6,6 @@ def batch_badge_creator(name)
   names.map do |name|
      badge_maker(name)
   end
-  return  new_array
 end
 
 def assign_rooms(attendees)
