@@ -17,7 +17,7 @@ end
 
 
 def printer(attendees)
-    batch_badge_creator(attendees).map
+    batch_badge_creator(attendees).map do |person|
     results.each do |x|
     puts x
     end
