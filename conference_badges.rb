@@ -17,10 +17,12 @@ end
 
 
 def printer(attendees)
-    batch_badge_creator(attendees).map do |person|
-      puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
-    end
-def assign_rooms(attendees).map do|person|
-      puts person
-    end
+  resultOne = batch_badge_creator(attendees)
+  resultOne.each do |x|
+    puts x 
+  end
+  result = assign_rooms(attendees)
+  result.each do |x|
+    puts x 
+  end
 end
