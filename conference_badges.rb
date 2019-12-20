@@ -21,7 +21,6 @@ def printer(attendees)
       puts person
     end
     assign_rooms(attendees).map do|person|
-    result.each do |x|
-    puts x
+      puts person
     end
 end
