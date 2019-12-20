@@ -20,7 +20,7 @@ def printer(attendees)
     batch_badge_creator(attendees).map do |person|
       puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
     end
-    assign_rooms(attendees).map do|person|
+def assign_rooms(attendees).map do|person|
       puts person
     end
 end
